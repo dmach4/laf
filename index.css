@@ -355,7 +355,10 @@ color: var(--branco);
     }
     .header-bloco .texto{
         position: absolute;
-        bottom: 5%;
+        bottom: 13%;
+    }
+    .header-bloco .texto p{
+        text-align: center;
     }
     .header-bloco .texto h2{
         position: absolute;
