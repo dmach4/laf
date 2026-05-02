@@ -212,6 +212,7 @@ section .card-item {
   height: 100%;
 }
 .right h4 {
+  font-size: 1.5em;
   color: var(--azul);
   text-align: center;
   width: 90%;
@@ -425,6 +426,10 @@ footer .last {
   .right {
     width: 90%;
   }
+  .right h4 {
+    font-size: 1em;
+  }
+
   .right p {
     width: 100%;
     margin-left: 20px;
