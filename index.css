@@ -44,7 +44,7 @@ nav {
   margin-bottom: 25px;
   margin-left: 40px;
 
-  animation: girar 15s linear infinite;
+  animation: girar 7s linear infinite;
   transform-origin: center;
 }
 
