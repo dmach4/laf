@@ -43,13 +43,25 @@ nav {
 #logo {
   margin-bottom: 25px;
   margin-left: 40px;
+
+  animation: girar 15s linear infinite;
+  transform-origin: center;
 }
 
 #logo,
 #log {
   width: 180px;
-  height: 130px;
+  height: 180px;
   border-radius: 50px;
+}
+
+@keyframes girar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 nav ul {
