@@ -1,5 +1,5 @@
 function vibra() {
-    window.navigator.vibrate(4000);
+    window.navigator.vibrate(400);
 }
 
-document.querySelector(".card-item img").addEventListener("click", vibra);
+document.querySelector(".card-item img").addEventListener("click", vibra() ); 
