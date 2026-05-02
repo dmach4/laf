@@ -2,4 +2,4 @@ function vibra() {
     window.navigator.vibrate(4000);
 }
 
-document.getElementById("vibra").addEventListener("click", hover);
+document.getElementById("vibra").addEventListener("click", img);
