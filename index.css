@@ -1,5 +1,5 @@
 * {
-  /* ------------------------------------- R E S E T   D A   P A G I N A--------------------------------- */
+  /* ----------------------------------------------- R E S E T   D A   P A G I N A -------------------------------------- */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -17,13 +17,13 @@
 }
 html,
 body {
-  /* ------------------fundo da tela ---------------*/
+  /* ------------------------------------------ fundo da tela ----------------------------------------------------*/
   width: 100%;
   overflow-x: hidden;
   background-image: url("img/fundo.png");
   background-attachment: fixed;
   /* background-image: linear-gradient(0deg, rgb(13, 13, 135), green, white); */
-} /* -----------------------------C A B E C A L H O------------------------------------- */
+} /* ---------------------------------------------- C A B E C A L H O ------------------------------------- */
 
 header {
   width: 100%;
@@ -66,7 +66,7 @@ nav ul li a:hover {
   background-color: var(--verde);
   border-radius: 40px 0px 40px 0px;
   border: 3px solid var(--branco);
-} /*---------------------------------------R E T A N G U L O   V E R D E--------------------------------*/
+} /*--------------------------------------------------- R E T A N G U L O   V E R D E ----------------------------------------*/
 .container {
   max-width: 1000px;
   min-width: 300px;
@@ -106,7 +106,7 @@ nav ul li a:hover {
   width: 100%;
   color: var(--branco);
   text-align: right;
-} /*----------------------------- C A T A L O G O   D E   V E N D A --------------------------------------*/
+} /*---------------------------------------------- C A T A L O G O   D E   V E N D A ---------------------------------------------*/
 section .catalogo {
   width: 100%;
   padding: 100px;
@@ -175,7 +175,7 @@ section .card-item {
   z-index: 2;
   transform: scale(6.1);
   transition: 3s;
-} /* ------------------------------------ S O B R E ------------------------------------- */
+} /* ------------------------------------------------ S O B R E ------------------------------------------ */
 
 .sobre {
   width: 100%;
@@ -261,7 +261,7 @@ section .feature-card-bloco {
   height: 60px;
   background-color: var(--verde);
   border-radius: 10px 0px 0px 10px;
-} /* --------------------------------------  W H A T S A P P ---------------------------------------------- */
+} /* --------------------------------------------  W H A T S A P P ---------------------------------------------- */
 
 #whatsapp {
   color: var(--branco);
@@ -298,7 +298,7 @@ section .feature-card-bloco {
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
   animation-direction: alternate;
-} /* --------------------------------------- R O D A   P É ---------------------------------------- */
+} /* --------------------------------------------- R O D A   P É ---------------------------------------- */
 
 footer {
   width: 100%;
@@ -352,11 +352,11 @@ footer .last {
   justify-content: center;
   color: var(--branco);
 }
-/* ------------------------------------- M O B I L E ------------------------------------ */
+/* ------------------------------------------- M O B I L E ------------------------------------ */
 
 @media (max-width: 700px) {
-  #logo {
-    margin: auto;
+  #logo img {
+    height: 140px;
   }
   nav ul li {
     display: none;
