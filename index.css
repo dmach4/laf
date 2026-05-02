@@ -23,7 +23,7 @@ body {
   background-image: url("img/fundo.png");
   background-attachment: fixed;
   /* background-image: linear-gradient(0deg, rgb(13, 13, 135), green, white); */
-} /* ---------------------------------------------- C A B E C A L H O ------------------------------------- */
+} /* ---------------------------------------------- C A B E C A L H O -------------------------------------------- */
 
 header {
   width: 100%;
@@ -66,7 +66,7 @@ nav ul li a:hover {
   background-color: var(--verde);
   border-radius: 40px 0px 40px 0px;
   border: 3px solid var(--branco);
-} /*--------------------------------------------------- R E T A N G U L O   V E R D E ----------------------------------------*/
+} /*--------------------------------------------------- R E T A N G U L O   V E R D E --------------------------------*/
 .container {
   max-width: 1000px;
   min-width: 300px;
@@ -106,7 +106,7 @@ nav ul li a:hover {
   width: 100%;
   color: var(--branco);
   text-align: right;
-} /*---------------------------------------------- C A T A L O G O   D E   V E N D A ---------------------------------------------*/
+} /*---------------------------------------------- C A T A L O G O   D E   V E N D A --------------------------------------*/
 section .catalogo {
   width: 100%;
   padding: 100px;
