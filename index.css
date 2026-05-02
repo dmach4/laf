@@ -268,7 +268,6 @@ section .feature-card-bloco {
   background-color: var(--verde);
   border-radius: 10px 0px 0px 10px;
 } /* --------------------------------------------  W H A T S A P P ---------------------------------------------- */
-
 #whatsapp {
   color: var(--branco);
   position: fixed;
