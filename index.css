@@ -20,6 +20,7 @@ body {
   /* ------------------------------------------ fundo da tela ----------------------------------------------------*/
   background-image: url("img/fundo.png");
   background-attachment: fixed;
+  background-size: 20%;
 } /* ---------------------------------------------- C A B E C A L H O -------------------------------------------- */
 
 header {
@@ -393,7 +394,7 @@ footer .last {
     width: 330px;
   }
   section .card-item {
-    width: 330px;
+    width: 300px;
   }
   .card-item img:hover {
     /* zoom da figura na tela */
