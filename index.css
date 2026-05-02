@@ -268,8 +268,10 @@ section .feature-card-bloco {
   background-color: var(--verde);
   border-radius: 10px 0px 0px 10px;
 }
-.feature-texto-content,  h3, p {
-    margin-left: 20px;
+.feature-texto-content,
+h3,
+p {
+  margin-left: 20px;
 }
 /* --------------------------------------------  W H A T S A P P ---------------------------------------------- */
 #whatsapp {
@@ -437,7 +439,9 @@ footer .last {
     display: flex;
     flex-direction: column-reverse;
   }
-  .feature-texto-content,  h3, p {
+  .feature-texto-content,
+  h3,
+  p {
     margin-left: 20px;
   }
   footer {
