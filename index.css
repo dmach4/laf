@@ -40,11 +40,15 @@ nav {
 }
 
 #logo {
-  border: var(--branco) 5px solid;
+  margin-bottom: 25px;
+  margin-left: 40px;
 }
 
 #logo,
-#logo {
+#log {
+  width: 180px;
+  height: 130px;
+  border-radius: 50px;
 }
 
 nav ul {
@@ -356,9 +360,8 @@ footer .last {
 /* ------------------------------------------- M O B I L E ------------------------------------ */
 
 @media (max-width: 700px) {
-  #logo img {
-    text-align: center;
-    height: 140px;
+  #logo {
+    margin-left: 25%;
   }
 
   nav ul li {
