@@ -211,7 +211,7 @@ section .card-item {
   min-height: 300px;
   height: 100%;
 }
-.right h3 {
+.right h4 {
   color: var(--azul);
   text-align: center;
   width: 90%;
