@@ -18,11 +18,8 @@
 html,
 body {
   /* ------------------------------------------ fundo da tela ----------------------------------------------------*/
-  width: 100%;
-  overflow-x: hidden;
   background-image: url("img/fundo.png");
   background-attachment: fixed;
-  /* background-image: linear-gradient(0deg, rgb(13, 13, 135), green, white); */
 } /* ---------------------------------------------- C A B E C A L H O -------------------------------------------- */
 
 header {
@@ -41,11 +38,15 @@ nav {
   justify-content: space-between;
   margin: 50px 0px 20px 0px;
 }
+
 #logo {
-  font-size: 5rem;
-  color: var(--branco);
-  margin-left: 20px;
+  border: var(--branco) 5px solid;
 }
+
+#logo,
+#logo {
+}
+
 nav ul {
   display: flex;
   flex-direction: row;
@@ -356,8 +357,10 @@ footer .last {
 
 @media (max-width: 700px) {
   #logo img {
+    text-align: center;
     height: 140px;
   }
+
   nav ul li {
     display: none;
   }
